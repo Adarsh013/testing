@@ -14,3 +14,13 @@ git checkout chapter1.txt  //to rollback the previous content
 //To push a local repo to remote repo on github
 git remote add origin https://github.com/Adarsh013/testing.git
 git push -u origin main
+
+git add .  //to add all the files In the staging area at once 
+
+// gitignore
+
+#This is comment
+
+touch .gitignore
+git rm --cached -r .  // to remove all files from the sataging area
+code .gitignore   //isko open kre us file ka exact name likhna h jisko we don't want to be in staging area 
