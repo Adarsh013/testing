@@ -24,3 +24,13 @@ git add .  //to add all the files In the staging area at once
 touch .gitignore
 git rm --cached -r .  // to remove all files from the sataging area
 code .gitignore   //isko open kre us file ka exact name likhna h jisko we don't want to be in staging area 
+
+
+//Branching and Merging
+
+git branch Another_Story  //It will make another branch of main file
+git branch  //It is used to see on which branch you are at currently
+git checkout main/newBranchName   //it will switch the branch	
+git merge newBranchName  //To merge both branches 
+:q!  //Save the branches 
+git push origin main -u
