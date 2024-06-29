@@ -4,8 +4,9 @@ this is chapter 1 for learning
 mkdir story
 touch chapter1.txt
 code chapter1.txt   //Open the file and write some content In it
-git init
+git init  //To add a hidden .git file
 git add chapter1.txt  // To add file in staging
 git commit -m "Commit msg"
 git log   //To see the commit msg 
 git diff chapter1.txt   //To see the diff of the new data and the previous data
+git checkout chapter1.txt  //to rollback the previous content
