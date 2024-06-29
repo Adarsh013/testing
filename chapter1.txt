@@ -10,3 +10,7 @@ git commit -m "Commit msg"
 git log   //To see the commit msg 
 git diff chapter1.txt   //To see the diff of the new data and the previous data
 git checkout chapter1.txt  //to rollback the previous content
+
+//To push a local repo to remote repo on github
+git remote add origin https://github.com/Adarsh013/testing.git
+git push -u origin main
